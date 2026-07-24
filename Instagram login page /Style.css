@@ -1,1 +1,183 @@
+*{
+  border: 0;
+  margin: 0;
+}
+body{
+  background-color: #9f9f9f;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*#gat{
+  height: 610px;
+  width: 177.5px;
+  background-color:#72c6de;
+  position: absolute;
+  border-radius: 36px;
+  margin-right: 185px;
+}
+ #gat2{
+  height: 610px;
+  width: 177.5px;
+  background-color:#72c6de;
+  position: absolute;
+  border-radius: 36px;
+  margin-left: 185px;
+}*/
 
+#container{
+  color: #FFFFFF;
+  height: 600px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: -120px;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: 50px;
+  
+}
+
+#instagram{
+  height: 80px;
+  display: flex;
+  width: 200px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: transparent;
+  
+  }
+
+  form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+  }
+
+  #email{
+    height: 40px;
+    width: 100%;
+    margin-top: 130px;
+    background-color: #f6f5f5;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #dddddd;
+    padding-left:15px;
+    
+  }
+
+#password{
+  margin-top: 12px;
+  background-color: #f6f5f5;
+  height: 40px;
+  width: 100%;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #dddddd; 
+  padding-left: 15px;
+  color:black;
+}
+
+#email::placeholder{
+  padding-left: 7px;
+  font-size: 14px;
+  
+}
+
+#password::placeholder{
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+.log{
+  margin-top: 28px;
+  height: 40px; 
+  cursor: pointer;
+  border-radius: 7px;
+  background: #72c6de;
+  font-size: 26px;
+  width: 100%;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+#forgot-password{
+margin-left:181px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+#forgot-password a{
+    text-decoration: none;
+  color: ##53aecd;
+}
+
+p{
+  color: #9f9f9f;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+.facebook-log{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  margin-top: 34;
+   
+}
+
+#facebook{
+  height: 24px;
+  width: 24px;
+ cursor: pointer;
+}
+
+facebook-log line{
+  text-decoration: column;
+  
+}
+
+.facebook-log a{
+text-decoration: none;
+  color: ##dcffff;
+   line-height: 24px;
+  }
+
+#line{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  
+}
+ #dont{
+  color:#9f9f9f;
+   margin-top: 570px;
+   margin-left: 46px;
+   font-size: 14px;
+   height: 18px;
+   width: 145px;
+   position: absolute;
+   text-decoration: none;
+}
+#line{
+margin-top: 100px;
+
+}
+.sing-up{
+  gap: 90px;
+  height: 12px;
+}
+#sing{
+ color:#3656aa;
+  margin-left: 193px;
+  margin-top: 12px;
+  cursor:pointer;
+  width: 54px;
+}
