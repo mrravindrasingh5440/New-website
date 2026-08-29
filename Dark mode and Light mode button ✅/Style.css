@@ -1,0 +1,36 @@
+*{3
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100vh;
+  width: 100%;
+}
+#contener{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+}
+#contener h3{
+  position: absolute;
+  margin-bottom: 500px;
+  font-size: 24px;
+  color:
+    #68e5cef8
+  
+}
+button{
+  height: 80px;
+  width: 200px;
+  color: #000000;
+  font-size: 26px;
+  font-weight: 700;
+  border: none;
+  background-color: #19e1b495;
+  border-top-right-radius: 80px; 
+  border-bottom-left-radius: 80px;
+  box-shadow: 20px 29px 300px;
+}
