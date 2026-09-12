@@ -1,3 +1,4 @@
+
 gsap.from("#display-header .recod" ,{
     x: 50,
     rotate :360,
@@ -23,6 +24,11 @@ gsap.from("#gamedisplay",{
 var timer = 60;
 var scor = 0; 
 var rm = 0;
+document.querySelector(".recod").addEventListener("EnterMouse",function(){
+    gsap.to(".recod",{
+        rotate:720,
+    })
+})
  document.querySelector("#restart").addEventListener("click", function(){
     location.reload();
 });
